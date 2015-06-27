@@ -1,26 +1,32 @@
 {
   "name": "toolbar-iconshortcuts",
   "main": "./lib/toolbar-iconshortcuts",
-  "version": "0.0.1",
-  "description": "Icon ShortCuts",
-  "repository": "https://github.com/thiagolucio/toolbar-iconshortcuts",
+  "version": "0.0.0",
+  "description": "A extended icons from Atom toolbar",
+  "keywords": [
+    "toolbar",
+    "tool-bar",
+    "main-tool-bar",
+    "toolbar-icon",
+    "icon",
+    "iconshortcuts"
+  ],
+  "activationCommands": {
+    "atom-workspace": "toolbar-iconshortcuts:toggle"
+  },
+  "repository": "https://github.com/atom/toolbar-iconshortcuts",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "keywords": [
-    "toolbar",
-    "tool-bar"
-  ],
-  "dependencies": {},
-  "packageDependencies": {
+  "dependencies": {
     "tool-bar": "0.1.1"
   },
   "consumedServices": {
-    "tool-bar": {
-      "versions": {
-        "^0.1.0": "consumeToolBar"
-      }
-    }
-  }
+   "tool-bar": {
+     "versions": {
+       "^0.1.0": "consumeToolBar"
+     }
+   }
+ }
 }

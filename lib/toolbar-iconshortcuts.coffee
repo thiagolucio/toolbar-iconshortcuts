@@ -13,15 +13,15 @@ module.exports =
       icon: 'file-code-o'
       callback: 'application:new-file'
       tooltip: 'New File'
-      iconset: 'fa'         
+      iconset: 'fa'
     @toolBar.addButton
       icon: 'file-directory'
       callback: 'application:open-file'
-      tooltip: 'Open File...'      
+      tooltip: 'Open File...'
     @toolBar.addButton
       icon: 'file-submodule'
       callback: 'application:open-folder'
-      tooltip: 'Open Folder...'              
+      tooltip: 'Open Folder...'
     @toolBar.addButton
       icon: 'floppy-o'
       callback: 'core:save'
