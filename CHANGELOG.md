@@ -1,11 +1,3 @@
-## 0.1.0 - First Release - Add buttons
-* New File
-* Open...
-* Open Project...
-* Save
-* Find in Buffer
-* Replace in Buffer
-* Toggle Command Palette
-* Settings View
-* Reload Window
-* Toggle Developer Tools
+## 0.1.0 - Added Package first time with some bugs
+## 0.2.0 - First Release - correct some erros in package.json
+## 0.3.0 - Correct bug from instalation package

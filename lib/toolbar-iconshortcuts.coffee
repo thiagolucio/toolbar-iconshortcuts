@@ -7,7 +7,7 @@ module.exports =
   serialize: ->
 
   consumeToolBar: (toolBar) ->
-    @toolBar = toolBar 'main-tool-bar'
+    @toolBar = toolBar 'toolbar-iconshortcuts'
 
     @toolBar.addButton
       icon: 'file-code-o'
@@ -30,13 +30,11 @@ module.exports =
 
     @toolBar.addSpacer()
 
-    #pesquisar
     @toolBar.addButton
       icon: 'magnifying-glass'
       callback: 'find-and-replace:show'
       tooltip: 'Find...'
       iconset: 'fi'
-    #substituir
     @toolBar.addButton
       icon: 'shuffle'
       callback: 'find-and-replace:show-replace'
@@ -45,26 +43,15 @@ module.exports =
 
     @toolBar.addSpacer()
 
-    #menu
     @toolBar.addButton
       icon: 'navicon-round'
       callback: 'command-palette:toggle'
       tooltip: 'Command Palette...'
       iconset: 'ion'
-    #configuracoes
     @toolBar.addButton
       icon: 'tools'
       callback: 'settings-view:open'
       tooltip: 'Settings...'
-      #iconset: 'fi'
-
-    if atom.inDevMode()
-      @toolBar.addSpacer()
-
-   #@toolBar.addButton
-      #icon: 'widget'
-      #callback: 'settings-view:open'
-      #tooltip: 'Settings...'
       #iconset: 'fi'
 
     @toolBar.addButton
