@@ -1,7 +1,7 @@
 {
   "name": "toolbar-iconshortcuts",
   "main": "./lib/toolbar-iconshortcuts",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A extended icons from Atom toolbar",
   "keywords": [
     "toolbar",
