@@ -14,7 +14,7 @@
   "activationCommands": {
     "atom-workspace": "toolbar-iconshortcuts:toggle"
   },
-  "repository": "https://github.com/atom/toolbar-iconshortcuts.git",
+  "repository": "https://github.com/atom/toolbar-iconshortcuts",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
