@@ -19,9 +19,6 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-    "tool-bar": "0.1.1"
-  },
   "consumedServices": {
     "tool-bar": {
       "versions": {
