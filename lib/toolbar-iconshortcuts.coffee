@@ -40,6 +40,26 @@ module.exports =
       callback: 'find-and-replace:show-replace'
       tooltip: 'Find and Replace...'
       iconset: 'ion'
+    @toolBar.addButton
+      icon: 'chevron-right'
+      callback: 'pane:split-right'
+      tooltip: 'Split Right'
+      iconset: ''
+    @toolBar.addButton
+      icon: 'mirror'
+      callback: 'tree-view:toggle'
+      tooltip: 'Toggle Treeview'
+      iconset: ''
+    @toolBar.addButton
+      icon: 'markdown'
+      callback: 'markdown-preview:toggle'
+      tooltip: 'Markdown Preview'
+      iconset: ''
+    @toolBar.addButton
+      icon: 'browser'
+      callback: 'open-in-browser:open'
+      tooltip: 'Open in Browser...'
+      iconset: ''
 
     @toolBar.addSpacer()
 
@@ -53,7 +73,6 @@ module.exports =
       callback: 'settings-view:open'
       tooltip: 'Settings...'
       #iconset: 'fi'
-
     @toolBar.addButton
       icon: 'refresh'
       callback: 'window:reload'
