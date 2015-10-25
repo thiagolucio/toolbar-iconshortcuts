@@ -16,10 +16,11 @@ Package Dependencies - It must have installed a toolbar SUDA extension of ATOM b
 * Replace in Buffer
 * Toggle Command Palette
 
+* Open in Browser... Need install before the "Open in Browser" Package. Search on instal package or goto - https://github.com/magbicaleman/open-in-browser
+* Run project on localhost server... Need install before the "atom-live-server" Package. Search on instal package or goto - https://atom.io/packages/atom-live-server
+* Preview inside ATOM
 * Split Pane Right
 * Toggle Tree-View
-* Preview inside ATOM
-* Open in Browser... Need install before the "Open in Browser" Package. Search on instal package or goto - https://github.com/magbicaleman/open-in-browser
 
 * Settings View
 * Reload Window

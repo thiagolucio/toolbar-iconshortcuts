@@ -31,15 +31,20 @@ module.exports =
     @toolBar.addSpacer()
 
     @toolBar.addButton
-      icon: 'magnifying-glass'
-      callback: 'find-and-replace:show'
-      tooltip: 'Find...'
-      iconset: 'fi'
+      icon: 'browser'
+      callback: 'open-in-browser:open'
+      tooltip: 'Open in Browser...'
+      iconset: ''
     @toolBar.addButton
-      icon: 'shuffle'
-      callback: 'find-and-replace:show-replace'
-      tooltip: 'Find and Replace...'
-      iconset: 'ion'
+      icon: 'fa fa-server'
+      callback: 'atom-live-server:start-3000'
+      tooltip: 'Run localhost port 3000...'
+      iconset: 'fa'
+    @toolBar.addButton
+      icon: 'markdown'
+      callback: 'markdown-preview:toggle'
+      tooltip: 'Markdown Preview'
+      iconset: ''
     @toolBar.addButton
       icon: 'chevron-right'
       callback: 'pane:split-right'
@@ -51,15 +56,15 @@ module.exports =
       tooltip: 'Toggle Treeview'
       iconset: ''
     @toolBar.addButton
-      icon: 'markdown'
-      callback: 'markdown-preview:toggle'
-      tooltip: 'Markdown Preview'
-      iconset: ''
+      icon: 'magnifying-glass'
+      callback: 'find-and-replace:show'
+      tooltip: 'Find...'
+      iconset: 'fi'
     @toolBar.addButton
-      icon: 'browser'
-      callback: 'open-in-browser:open'
-      tooltip: 'Open in Browser...'
-      iconset: ''
+      icon: 'shuffle'
+      callback: 'find-and-replace:show-replace'
+      tooltip: 'Find and Replace...'
+      iconset: 'ion'
 
     @toolBar.addSpacer()
 
