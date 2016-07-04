@@ -50,7 +50,7 @@ module.exports =
       iconset: ''
 
     @toolBar.addButton
-      icon: 'markdown'
+      icon: 'desktop-download'
       callback: 'markdown-preview:toggle'
       tooltip: 'Markdown Preview'
       iconset: ''
