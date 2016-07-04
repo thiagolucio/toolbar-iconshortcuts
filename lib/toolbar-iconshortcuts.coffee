@@ -50,12 +50,6 @@ module.exports =
       iconset: ''
 
     @toolBar.addButton
-      icon: 'desktop-download'
-      callback: 'markdown-preview:toggle'
-      tooltip: 'Markdown Preview'
-      iconset: ''
-
-    @toolBar.addButton
       icon: 'chevron-right'
       callback: 'pane:split-right'
       tooltip: 'Split Right'
@@ -74,7 +68,7 @@ module.exports =
       iconset: ''
 
     @toolBar.addButton
-      icon: 'diff'
+      icon: 'quote'
       callback: 'find-and-replace:show-replace'
       tooltip: 'Find and Replace...'
       iconset: ''
