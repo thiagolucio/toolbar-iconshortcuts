@@ -44,7 +44,7 @@ module.exports =
       iconset: ''
 
     @toolBar.addButton
-      icon: 'fa fa-server'
+      icon: 'fa-server'
       callback: 'atom-live-server:start-3000'
       tooltip: 'Run localhost port 3000...'
       iconset: 'fa'
