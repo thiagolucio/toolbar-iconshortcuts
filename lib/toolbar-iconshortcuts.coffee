@@ -30,7 +30,7 @@ module.exports =
       iconset: ''
 
     @toolBar.addButton
-      icon: 'checklist'
+      icon: 'check'
       callback: 'core:save'
       tooltip: 'Save...'
       iconset: ''
@@ -88,7 +88,7 @@ module.exports =
       iconset: ''
 
     @toolBar.addButton
-      icon: 'settings'
+      icon: 'gear'
       callback: 'settings-view:open'
       tooltip: 'Settings...'
       #iconset: ''
