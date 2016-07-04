@@ -1,8 +1,8 @@
 {
   "name": "toolbar-iconshortcuts",
   "main": "./lib/toolbar-iconshortcuts",
-  "version": "1.0.0",
-  "description": "A extended Icons from Suda toolbar from Atom",
+  "version": "2.0.0",
+  "description": "Icons from Atom Suda toolbar",
   "repository": "https://github.com/thiagolucio/toolbar-iconshortcuts",
   "license": "MIT",
   "engines": {
@@ -10,7 +10,9 @@
   },
   "keywords": [
     "toolbar",
-    "tool-bar"
+    "tool-bar",
+    "toolbar iconshortcuts",
+    "toolbar-iconshortcuts"
   ],
   "dependencies": {},
   "packageDependencies": {
