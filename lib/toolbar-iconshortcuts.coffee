@@ -12,10 +12,10 @@ module.exports =
     @toolBar = toolBar 'toolbar-iconshortcuts'
 
     @toolBar.addButton
-      icon: 'file-code-o'
+      icon: 'file-code'
       callback: 'application:new-file'
       tooltip: 'New File'
-      iconset: 'fa'
+      iconset: ''
 
     @toolBar.addButton
       icon: 'file-directory'
@@ -30,10 +30,10 @@ module.exports =
       iconset: ''
 
     @toolBar.addButton
-      icon: 'floppy-o'
+      icon: 'checklist'
       callback: 'core:save'
       tooltip: 'Save...'
-      iconset: 'fa'
+      iconset: ''
 
     @toolBar.addSpacer()
 
@@ -44,10 +44,10 @@ module.exports =
       iconset: ''
 
     @toolBar.addButton
-      icon: 'fa-server'
+      icon: 'server'
       callback: 'atom-live-server:start-3000'
       tooltip: 'Run localhost port 3000...'
-      iconset: 'fa'
+      iconset: ''
 
     @toolBar.addButton
       icon: 'markdown'
@@ -68,36 +68,36 @@ module.exports =
       iconset: ''
 
     @toolBar.addButton
-      icon: 'magnifying-glass'
+      icon: 'search'
       callback: 'find-and-replace:show'
       tooltip: 'Find...'
-      iconset: 'fi'
+      iconset: ''
 
     @toolBar.addButton
-      icon: 'shuffle'
+      icon: 'diff'
       callback: 'find-and-replace:show-replace'
       tooltip: 'Find and Replace...'
-      iconset: 'ion'
+      iconset: ''
 
     @toolBar.addSpacer()
 
     @toolBar.addButton
-      icon: 'navicon-round'
+      icon: 'three-bars'
       callback: 'command-palette:toggle'
       tooltip: 'Command Palette...'
-      iconset: 'ion'
+      iconset: ''
 
     @toolBar.addButton
-      icon: 'tools'
+      icon: 'settings'
       callback: 'settings-view:open'
       tooltip: 'Settings...'
-      #iconset: 'fi'
+      #iconset: ''
 
     @toolBar.addButton
-      icon: 'refresh'
+      icon: 'sync'
       callback: 'window:reload'
       tooltip: 'Reload Window'
-      iconset: 'ion'
+      iconset: ''
 
     @toolBar.addButton
       icon: 'terminal'
