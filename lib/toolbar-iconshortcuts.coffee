@@ -82,7 +82,7 @@ module.exports =
       iconset: ''
 
     @toolBar.addButton
-      icon: 'gear'
+      icon: 'tools'
       callback: 'settings-view:open'
       tooltip: 'Settings...'
       #iconset: ''
