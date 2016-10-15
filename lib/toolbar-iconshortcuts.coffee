@@ -1,6 +1,5 @@
 module.exports =
   activate: (state) ->
-    require('atom-package-deps').install('toolbar-iconshortcuts')
 
   deactivate: ->
     @toolBar?.removeItems()
@@ -37,43 +36,15 @@ module.exports =
     @toolBar.addSpacer()
 
     @toolBar.addButton
-      icon: 'search'
-      callback: 'find-and-replace:show'
-      tooltip: 'Find in Buffer'
-      iconset: 'ion'
-
-    @toolBar.addButton
-      icon: 'shuffle'
-      callback: 'find-and-replace:show-replace'
-      tooltip: 'Replace in Buffer'
-      iconset: 'ion'
-
-    @toolBar.addSpacer()
-
-    @toolBar.addButton
-      icon: 'navicon-round'
-      callback: 'command-palette:toggle'
-      tooltip: 'Toggle Command Palette'
-      iconset: 'ion'
-
-    @toolBar.addSpacer()
-
-	@toolBar.addButton
-	  icon: 'browser'
-	  callback: 'open-in-browser:open'
-	  tooltip: 'Open in Browser...'
-	  iconset: ''
-
-	@toolBar.addButton
-      icon: 'server'
-      callback: 'atom-live-server:start-3000'
-      tooltip: 'Run localhost port 3000...'
+      icon: 'browser'
+      callback: 'open-in-browser:open'
+      tooltip: 'Open in Browser...'
       iconset: ''
 
     @toolBar.addButton
-      icon: 'markdown'
-      callback: 'markdown-preview:toggle'
-      tooltip: 'Markdown Preview'
+      icon: 'server'
+      callback: 'atom-live-server:start-3000'
+      tooltip: 'Run localhost port 3000...'
       iconset: ''
 
     @toolBar.addButton
@@ -88,6 +59,18 @@ module.exports =
       tooltip: 'Toggle Treeview'
       iconset: ''
 
+    @toolBar.addButton
+      icon: 'search'
+      callback: 'find-and-replace:show'
+      tooltip: 'Find...'
+      iconset: 'ion'
+
+    @toolBar.addButton
+      icon: 'shuffle'
+      callback: 'find-and-replace:show-replace'
+      tooltip: 'Find and Replace...'
+      iconset: 'ion'
+
     @toolBar.addSpacer()
 
     @toolBar.addButton
@@ -100,15 +83,13 @@ module.exports =
       icon: 'tools'
       callback: 'settings-view:open'
       tooltip: 'Settings...'
-      iconset: ''
+      #iconset: ''
 
-	@toolBar.addButton
+    @toolBar.addButton
       icon: 'sync'
       callback: 'window:reload'
       tooltip: 'Reload Window'
       iconset: ''
-
-    @toolBar.addSpacer()
 
     @toolBar.addButton
       icon: 'terminal'
@@ -116,6 +97,8 @@ module.exports =
         require('remote').getCurrentWindow().toggleDevTools()
       tooltip: 'Toggle Developer Tools'
       iconset: ''
+
+    @toolBar.addSpacer()
 
     @toolBar.addButton
       icon: 'x'
