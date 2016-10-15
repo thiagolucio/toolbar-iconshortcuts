@@ -23,10 +23,11 @@ Package Dependencies - It must have installed a toolbar SUDA extension of ATOM b
 * Preview inside ATOM
 * Split Pane Right
 * Toggle Tree-View
-
+* Command Palette
 * Settings View
 * Reload Window
 * Toggle Developer Tools
+* Close Tool-Bar
 
 
-This package is based to integrated a "toolbar" package from [Suda](https://github.com/suda). You need install first that package.
+This package is based to integrated a "toolbar"(Thanks:)) package from [Suda](https://github.com/suda). You need install first that package.
