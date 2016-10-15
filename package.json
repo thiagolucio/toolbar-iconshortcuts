@@ -1,33 +1,33 @@
 {
-	"name": "toolbar-iconshortcuts",
-	"version": "1.2.0",
-	"description": "A extended Icons from Suda toolbar from Atom",
-    "repository":{
-        "type": "git",
-        "url": "https://github.com/thiagolucio/toolbar-iconshortcuts"
-    },
-	"keywords": [
-		"toolbar",
-		"tool-bar",
-		"toolbar-iconshortcuts"
-	],
-	"license": "MIT",
-	"main": "./lib/toolbar-iconshortcuts",
-	"dependencies": {
-		"atom-package-deps": "^3.0.7",
-		"tool-bar": "0.1.1"
-	},
-	"engines": {
-		"atom": ">0.50.0"
-	},
-	"package-deps": [
-		"tool-bar"
-	],
-	"consumedServices": {
-		"tool-bar": {
-			"versions": {
-				"^0 || ^1": "consumeToolBar"
-			}
-		}
-	}
+  "name": "toolbar-iconshortcuts",
+  "version": "1.3.0",
+  "description": "A extended Icons from Suda toolbar from Atom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiagolucio/toolbar-iconshortcuts"
+  },
+  "keywords": [
+    "toolbar",
+    "tool-bar",
+    "toolbar-iconshortcuts"
+  ],
+  "license": "MIT",
+  "main": "./lib/toolbar-iconshortcuts",
+  "dependencies": {
+    "atom-package-deps": "^3.0.7",
+    "tool-bar": "0.1.1"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "package-deps": [
+    "tool-bar"
+  ],
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
+  }
 }
