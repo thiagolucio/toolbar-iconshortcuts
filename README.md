@@ -20,7 +20,6 @@ Package Dependencies - It must have installed a toolbar SUDA extension of ATOM b
 
 * Run project on localhost server... Need install before the "atom-live-server" Package. Search on instal package or goto - https://atom.io/packages/atom-live-server
 
-* Preview inside ATOM
 * Split Pane Right
 * Toggle Tree-View
 * Command Palette
@@ -30,4 +29,4 @@ Package Dependencies - It must have installed a toolbar SUDA extension of ATOM b
 * Close Tool-Bar
 
 
-This package is based to integrated a "toolbar"(Thanks:)) package from [Suda](https://github.com/suda). You need install first that package.
+This package is based to integrated a "tool-bar"(Thanks:)) package from [Suda](https://github.com/suda). You need install first that package.
