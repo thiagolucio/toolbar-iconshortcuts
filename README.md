@@ -11,22 +11,23 @@ Package Dependencies - It must have installed a toolbar SUDA extension of ATOM b
 * New File
 * Open...
 * Open Project...
-* Save
-* Find in Buffer
-* Replace in Buffer
-* Toggle Command Palette
+* Save File
 
 * Open in Browser... Need install before the "Open in Browser" Package. Search on instal package or goto - https://github.com/magbicaleman/open-in-browser
 
 * Run project on localhost server... Need install before the "atom-live-server" Package. Search on instal package or goto - https://atom.io/packages/atom-live-server
 
+* Run Script... (inside Atom). Need Install before the "Atom Runner" package. Search "atom-runner" and install or goto -
+https://atom.io/packages/atom-runner
+
 * Split Pane Right
 * Toggle Tree-View
-* Command Palette
+* Find in Buffer
+* Replace in Buffer
+* Toggle Command Palette
 * Settings View
 * Reload Window
 * Toggle Developer Tools
 * Close Tool-Bar
-
 
 This package is based to integrated a "tool-bar"(Thanks:)) package from [Suda](https://github.com/suda). You need install first that package.

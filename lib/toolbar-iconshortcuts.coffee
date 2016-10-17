@@ -26,7 +26,7 @@ module.exports =
       tooltip: 'Open Folder...'
       iconset: ''
     @toolBar.addButton
-      icon: 'check'
+      icon: 'checklist'
       callback: 'core:save'
       tooltip: 'Save...'
       iconset: ''
@@ -42,6 +42,11 @@ module.exports =
       icon: 'server'
       callback: 'atom-live-server:start-3000'
       tooltip: 'Run localhost port 3000...'
+      iconset: ''
+    @toolBar.addButton
+      icon: 'terminal'
+      callback: 'run:file'
+      tooltip: 'Run script...'
       iconset: ''
     @toolBar.addButton
       icon: 'chevron-right'
@@ -82,11 +87,11 @@ module.exports =
       tooltip: 'Reload Window'
       iconset: ''
     @toolBar.addButton
-      icon: 'terminal'
+      icon: 'target-two'
       callback: ->
         require('remote').getCurrentWindow().toggleDevTools()
       tooltip: 'Toggle Developer Tools'
-      iconset: ''
+      iconset: 'fi'
 
     @toolBar.addSpacer()
 
