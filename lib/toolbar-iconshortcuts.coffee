@@ -26,7 +26,7 @@ module.exports =
       tooltip: 'Open Folder...'
       iconset: ''
     @toolBar.addButton
-      icon: 'checklist'
+      icon: 'check'
       callback: 'core:save'
       tooltip: 'Save...'
       iconset: ''
