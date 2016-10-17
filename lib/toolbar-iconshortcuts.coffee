@@ -87,11 +87,11 @@ module.exports =
       tooltip: 'Reload Window'
       iconset: ''
     @toolBar.addButton
-      icon: 'target-two'
+      icon: 'target'
       callback: ->
         require('remote').getCurrentWindow().toggleDevTools()
       tooltip: 'Toggle Developer Tools'
-      iconset: 'fi'
+      iconset: 'icomoon'
 
     @toolBar.addSpacer()
 
