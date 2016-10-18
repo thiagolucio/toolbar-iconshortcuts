@@ -20,6 +20,9 @@ Package Dependencies - It must have installed a toolbar SUDA extension of ATOM b
 * Run Script... (inside Atom). Need Install before the "Atom Runner" package. Search "atom-runner" and install or goto -
 https://atom.io/packages/atom-runner
 
+* Open Terminal... (inside Atom). Need Install before the "Platformio Ide Terminal" package. Search "platformio-ide-terminal" and install or goto -
+https://github.com/platformio/platformio-atom-ide-terminal
+
 * Split Pane Right
 * Toggle Tree-View
 * Find in Buffer

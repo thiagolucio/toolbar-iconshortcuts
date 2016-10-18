@@ -44,15 +44,20 @@ module.exports =
       tooltip: 'Run localhost port 3000...'
       iconset: ''
     @toolBar.addButton
-      icon: 'terminal'
+      icon: 'power'
       callback: 'run:file'
       tooltip: 'Run script...'
+      iconset: 'icomoon'
+    @toolBar.addButton
+      icon: 'terminal'
+      callback: 'platformio-ide-terminal:toggle'
+      tooltip: 'Open terminal Inside...'
       iconset: ''
     @toolBar.addButton
-      icon: 'chevron-right'
+      icon: 'share'
       callback: 'pane:split-right'
       tooltip: 'Split Right'
-      iconset: ''
+      iconset: 'icomoon'
     @toolBar.addButton
       icon: 'mirror'
       callback: 'tree-view:toggle'
@@ -77,10 +82,10 @@ module.exports =
       tooltip: 'Command Palette...'
       iconset: ''
     @toolBar.addButton
-      icon: 'tools'
+      icon: 'sliders'
       callback: 'settings-view:open'
       tooltip: 'Settings...'
-      iconset: ''
+      iconset: 'fa'
     @toolBar.addButton
       icon: 'sync'
       callback: 'window:reload'
