@@ -14,7 +14,11 @@
   "license": "MIT",
   "main": "./lib/toolbar-iconshortcuts",
   "dependencies": {
-    "atom-package-deps": "^3.0.7"
+    "atom-package-deps": "^3.0.7",    
+    "open-in-browser": "^0.5.0",
+    "atom-live-server": "^1.2.5",
+    "atom-runner": "^2.7.0",
+    "platformio-atom-ide-terminal": "^2.5.0"
   },
   "engines": {
     "atom": ">0.50.0"
