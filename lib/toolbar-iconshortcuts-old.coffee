@@ -11,38 +11,38 @@ module.exports =
     @toolBar = toolBar 'toolbar-iconshortcuts'
 
     @toolBar.addButton
-      icon: 'file-empty'
+      icon: 'file-code'
       callback: 'application:new-file'
       tooltip: 'New File'
-      iconset: 'icomoon'
+      iconset: ''
     @toolBar.addButton
-      icon: 'folder'
+      icon: 'file-directory'
       callback: 'application:open-file'
       tooltip: 'Open File...'
-      iconset: 'icomoon'
+      iconset: ''
     @toolBar.addButton
-      icon: 'folder-plus'
+      icon: 'file-submodule'
       callback: 'application:open-folder'
       tooltip: 'Open Folder...'
-      iconset: 'icomoon'
+      iconset: ''
     @toolBar.addButton
-      icon: 'checkmark'
+      icon: 'check'
       callback: 'core:save'
       tooltip: 'Save...'
-      iconset: 'icomoon'
+      iconset: ''
 
     @toolBar.addSpacer()
 
     @toolBar.addButton
-      icon: 'chrome'
+      icon: 'browser'
       callback: 'open-in-browser:open'
       tooltip: 'Open in Browser...'
-      iconset: 'icomoon'
+      iconset: ''
     @toolBar.addButton
-      icon: 'sphere'
+      icon: 'server'
       callback: 'atom-live-server:start-3000'
       tooltip: 'Run localhost port 3000...'
-      iconset: 'icomoon'
+      iconset: ''
     @toolBar.addButton
       icon: 'power'
       callback: 'run:file'
@@ -52,45 +52,45 @@ module.exports =
       icon: 'terminal'
       callback: 'platformio-ide-terminal:toggle'
       tooltip: 'Open terminal Inside...'
-      iconset: 'icomoon'
+      iconset: ''
     @toolBar.addButton
-      icon: 'new-tab'
+      icon: 'share'
       callback: 'pane:split-right'
       tooltip: 'Split Right'
       iconset: 'icomoon'
     @toolBar.addButton
-      icon: 'tab'
+      icon: 'mirror'
       callback: 'tree-view:toggle'
       tooltip: 'Toggle Treeview'
-      iconset: 'icomoon'
+      iconset: ''
     @toolBar.addButton
       icon: 'search'
       callback: 'find-and-replace:show'
       tooltip: 'Find...'
-      iconset: 'icomoon'
+      iconset: 'ion'
     @toolBar.addButton
       icon: 'shuffle'
       callback: 'find-and-replace:show-replace'
       tooltip: 'Find and Replace...'
-      iconset: 'icomoon'
+      iconset: 'ion'
 
     @toolBar.addSpacer()
 
     @toolBar.addButton
-      icon: 'menu3'
+      icon: 'three-bars'
       callback: 'command-palette:toggle'
       tooltip: 'Command Palette...'
-      iconset: 'icomoon'
+      iconset: ''
     @toolBar.addButton
-      icon: 'equalizer'
+      icon: 'sliders'
       callback: 'settings-view:open'
       tooltip: 'Settings...'
-      iconset: 'icomoon'
+      iconset: 'fa'
     @toolBar.addButton
-      icon: 'spinner9'
+      icon: 'sync'
       callback: 'window:reload'
       tooltip: 'Reload Window'
-      iconset: 'icomoon'
+      iconset: ''
     @toolBar.addButton
       icon: 'target'
       callback: ->
@@ -101,7 +101,7 @@ module.exports =
     @toolBar.addSpacer()
 
     @toolBar.addButton
-      icon: 'exit'
+      icon: 'x'
       callback: 'tool-bar:toggle'
       tooltip: 'Close Tool-Bar'
-      iconset: 'icomoon'
+      iconset: ''
