@@ -77,7 +77,7 @@ module.exports =
     @toolBar.addSpacer()
 
     @toolBar.addButton
-      icon: 'menu3'
+      icon: 'list2'
       callback: 'command-palette:toggle'
       tooltip: 'Command Palette...'
       iconset: 'icomoon'
