@@ -77,12 +77,12 @@ module.exports =
     @toolBar.addSpacer()
 
     @toolBar.addButton
-      icon: 'list2'
+      icon: 'keyboard'
       callback: 'command-palette:toggle'
       tooltip: 'Command Palette...'
       iconset: 'icomoon'
     @toolBar.addButton
-      icon: 'equalizer'
+      icon: 'equalizer2'
       callback: 'settings-view:open'
       tooltip: 'Settings...'
       iconset: 'icomoon'
