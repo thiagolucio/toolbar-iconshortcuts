@@ -4,7 +4,7 @@ A more complete option of shortcut icons to the suda toolbar main for ATOM Edito
 
 Package Dependencies - It must have installed a toolbar SUDA extension of ATOM before(pre requisite)...[tool-bar](https://atom.io/packages/tool-bar) package.
 
-![Tool bar Icon Shortcuts preview](http://www.thiagolucio.com.br/images/toolbar-iconshortcuts2017.jpg)
+![Tool bar Icon Shortcuts preview](http://www.thiagolucio.com.br/images/toolbar-iconshortcuts2020.png)
 
 # Buttons
 
