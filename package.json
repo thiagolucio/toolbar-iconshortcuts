@@ -20,7 +20,7 @@
     "open-in-browser": "^0.5.0",
     "atom-live-server": "^1.2.5",
     "atom-runner": "^2.7.0",
-    "platformio-ide-terminal": "^2.5.0"
+    "terminus": "^4.0.6"
   },
   "engines": {
     "atom": ">0.50.0"
@@ -30,7 +30,7 @@
     "open-in-browser",
     "atom-live-server",
     "atom-runner",
-    "platformio-ide-terminal"
+    "terminus"
   ],
   "consumedServices": {
     "tool-bar": {

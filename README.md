@@ -13,15 +13,15 @@ Package Dependencies - It must have installed a toolbar SUDA extension of ATOM b
 * Open Project...
 * Save File
 
-* Open in Browser... (Install automatically) - Need install before the "Open in Browser" Package. Search on instal package or goto - https://github.com/magbicaleman/open-in-browser
+* Open in Browser... (Install automatically) OR need install manually(if problems) before the "Open in Browser" Package. Search on instal package or goto - https://github.com/magbicaleman/open-in-browser
 
-* Run project on localhost server... (Install automatically) - Need install before the "atom-live-server" Package. Search on instal package or goto - https://atom.io/packages/atom-live-server
+* Run project on localhost server... (Install automatically) OR need install manually(if problems) before the "atom-live-server" Package. Search on instal package or goto - https://atom.io/packages/atom-live-server
 
-* Run Script(inside Atom)... (Install automatically) - Need Install before the "Atom Runner" package. Search "atom-runner" and install or goto -
+* Run Script(inside Atom)... (Install automatically) OR need install manually(if problems) before the "Atom Runner" package. Search "atom-runner" and install or goto -
 https://atom.io/packages/atom-runner
 
-* Open Terminal(inside Atom)... (Install automatically) - Need Install before the "Platformio Ide Terminal" package. Search "platformio-ide-terminal" and install or goto -
-https://github.com/platformio/platformio-atom-ide-terminal
+* Open Terminal(inside Atom)... (Install automatically) OR need install manually(if problems) before the "Terminus" package. Search "terminus" and install or goto -
+https://github.com/bus-stop/terminus
 
 * Split Pane Right
 * Toggle Tree-View

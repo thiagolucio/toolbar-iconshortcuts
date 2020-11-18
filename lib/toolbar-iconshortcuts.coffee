@@ -50,8 +50,8 @@ module.exports =
       iconset: 'icomoon'
     @toolBar.addButton
       icon: 'terminal'
-      callback: 'platformio-ide-terminal:toggle'
-      tooltip: 'Open terminal Inside...'
+      callback: 'terminus:toggle'
+      tooltip: 'Open terminal Integrated...'
       iconset: 'icomoon'
     @toolBar.addButton
       icon: 'new-tab'
